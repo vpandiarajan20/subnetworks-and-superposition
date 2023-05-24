@@ -3,7 +3,7 @@
 ## Setup
 
 Before running code, download the circuit explorer in the directory you plan to use and read the README.
-https://github.com/chrishamblin7/circuit_explorer/tree/main
+https://github.com/chrishamblin7/circuit_explorer/tree/main. Much of our code is dependent on functions created by Hamblin et. al.
 
 Then, follow the steps below to run our experiments.
 
@@ -21,11 +21,11 @@ Add the circuit_explorer package itself: `pip install -e .`
 
 * Run `Subnetwork_Training.py` with passed hyperparameters to perform continuous sparsification to find Subnetworks and Save them
 
-* `Masked_AlexNet.py` contains code that has masked alexnet for continuous sparsification available
+* `models/Masked_AlexNet.py` contains code that has masked alexnet for continuous sparsification available
 
 
-* `Detecting and Subnetworking Polysemantic Neurons.ipynb` : Notebook with Majority of the Code for Generating Visuals (also has code to cluster and run ActGrad, SNIP, and Force)
+* `Detecting_and_Subnetworking_Polysemantic_Neurons.ipynb` : Notebook with Majority of the Code for Generating Visuals (also has code to cluster and run ActGrad, SNIP, and Force)
 
 ## NOTES
-In order to generate visualizations run the Detecting and Subnetworking Polysemantic Neurons notebook.
+In order to generate visualizations run the `Detecting_and_Subnetworking_Polysemantic_Neurons` notebook.
 Run the Subnetwork Training file in order to train the masked network. Specify parameters such as layer, unit, batch size, temperature, epochs, learning rate, schedule, decay, lambda normalization constant, temperature, mask initial value, and min cluster size. Use the switch cluster labels parameter to train the two individual subnetworks.
