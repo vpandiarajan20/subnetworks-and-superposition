@@ -31,7 +31,7 @@ from circuit_explorer.target import layer_saver
 from circuit_explorer.data_loading import default_unnormalize
 
 import hdbscan
-from Dataset_Utils import ImageNetReceptiveField, ImageNet2
+from dataset.Dataset_Utils import ImageNetReceptiveField, ImageNet2
 
 position = [6, 6]
 
