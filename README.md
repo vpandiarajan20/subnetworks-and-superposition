@@ -17,7 +17,7 @@ Install dependencies: `pip install -r requirements.txt`
 Add the circuit_explorer package itself: `pip install -e .`
 
 
-# Important Files
+## Important Files
 
 * Run `HDBScan_Clustering.py` to perform clustering to detect polysemantic neurons and generate graphs of the two clusters (code has not been fully tested). Pass in parameters (can be found in file at bottom) to change hyperparameters
 

@@ -1,5 +1,5 @@
 ### Config File for Alexnet Sparse. 
-### Code from Hamblin et. al
+### Code from Hamblin et. al. (2022)
 
 import torch
 import os
